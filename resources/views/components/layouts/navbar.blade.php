@@ -24,7 +24,10 @@
 
             {{-- Right Side --}}
             <div class="flex items-center">
-                <div class="flex items-center ms-3">
+                <div class="flex items-center gap-1 ms-3">
+                    {{-- Theme Switcher --}}
+                    <x-utilities.theme-switcher />
+
                     {{-- User Dropdown --}}
                     <div x-data="{ open: false }" class="relative">
                         <button @click="open = !open" type="button"

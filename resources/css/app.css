@@ -3,6 +3,9 @@
 
 @plugin "flowbite/plugin";
 
+/* Enable class-based dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
@@ -20,28 +23,28 @@
        Source: colorhunt.co
        ============================================ */
 
-    /* Light Mode Colors - Lavender/Purple */
-    --color-wira-50: #FAF8FF;
+    /* Light Mode Colors - Teal/Cyan */
+    --color-wira-50: #E6F7F5;
     /* Lightest - almost white */
-    --color-wira-100: #F5EFFF;
+    --color-wira-100: #C2EBE7;
+    /* Very light */
+    --color-wira-200: #8DD9D3;
+    /* Light */
+    --color-wira-300: #5CC9BE;
+    /* Light-medium */
+    --color-wira-400: #3BC1A8;
     /* From palette */
-    --color-wira-200: #EDE5FA;
-    /* Interpolated */
-    --color-wira-300: #E5D9F2;
-    /* From palette */
-    --color-wira-400: #D8CCF0;
-    /* Interpolated */
-    --color-wira-500: #CDC1FF;
+    --color-wira-500: #249E94;
     /* From palette - Primary */
-    --color-wira-600: #B8A8F5;
+    --color-wira-600: #1E8A82;
     /* Interpolated */
-    --color-wira-700: #A594F9;
+    --color-wira-700: #0C7779;
     /* From palette */
-    --color-wira-800: #8B7AD9;
-    /* Darker */
-    --color-wira-900: #7161B8;
-    /* Darkest */
-    --color-wira-950: #5A4A99;
+    --color-wira-800: #096669;
+    /* Interpolated */
+    --color-wira-900: #005461;
+    /* From palette - Darkest */
+    --color-wira-950: #003D47;
     /* Extra dark */
 
     /* Dark Mode Colors - Navy Blue */

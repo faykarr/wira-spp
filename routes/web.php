@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\Dashboard;
+use App\Livewire\Users;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -12,3 +13,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard', Dashboard::class)->name('dashboard');
 });
 
+// User Management - hanya untuk user dengan permission manage-users
+Route::middleware(['auth', 'can:manage-users'])->group(function () {
+    Route::get('/users', Users\Index::class)->name('users.index');
+});

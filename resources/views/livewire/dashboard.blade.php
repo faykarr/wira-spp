@@ -1,4 +1,4 @@
-<div>
+<div class="p-4 md:p-6">
     <div
         class="mb-6 p-6 bg-white rounded-lg shadow-sm dark:bg-wira-dark-800 border border-gray-200 dark:border-wira-dark-700">
         <div class="flex flex-col md:flex-row items-center justify-between gap-6">
