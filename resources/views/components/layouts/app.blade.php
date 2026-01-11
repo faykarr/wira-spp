@@ -5,9 +5,9 @@
     @include('partials.head')
 </head>
 
-<body class="min-h-screen bg-gray-50 dark:bg-wira-dark-900 antialiased" x-data="{ sidebarOpen: true }">
+<body class="min-h-screen bg-wira-100 dark:bg-wira-dark-900 antialiased" x-data="{ sidebarOpen: true }">
     <div
-        class="absolute inset-0 z-[-2] dark:bg-wira-dark-900 bg-[radial-gradient(#A594F933_1px,transparent_1px)] dark:bg-[radial-gradient(#2C74B333_1px,#0A2647_1px)] bg-size-[20px_20px]">
+        class="fixed inset-0 z-[-2] min-h-screen dark:bg-wira-dark-900 bg-[radial-gradient(#A594F933_1px,transparent_1px)] dark:bg-[radial-gradient(#2C74B333_1px,#0A2647_1px)] bg-size-[20px_20px]">
     </div>
     {{-- Navbar --}}
     @include('components.layouts.navbar')

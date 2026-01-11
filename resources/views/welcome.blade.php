@@ -33,8 +33,8 @@
             {{-- Content Section --}}
             <div
                 class="text-[13px] leading-5 flex-1 p-6 pb-12 lg:p-20 bg-white dark:bg-wira-dark-800 rounded-es-lg rounded-ee-lg lg:rounded-ss-lg lg:rounded-ee-none">
-                <h1 class="mb-1 text-3xl font-bold text-blue-950 dark:text-white">
-                    {{ env('APP_SHORT_NAME', 'Wira SPP') }}</h1>
+                <h1 class="mb-1 text-xl font-bold text-blue-950 dark:text-white">
+                    {{ env('APP_NAME', 'Wira SPP') }}</h1>
                 <p class="mb-4 text-gray-600 dark:text-gray-300">
                     Aplikasi pembayaran SPP bulanan & kegiatan lainnya. <br>
                     Silakan masuk dengan klik tombol di bawah.

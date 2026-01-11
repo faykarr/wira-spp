@@ -45,14 +45,14 @@
         <div class="w-full lg:p-8">
             <div class="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px] py-8 lg:py-0">
                 {{-- Mobile Logo --}}
-                <a href="{{ route('home') }}" class="z-20 flex flex-col items-center gap-3 font-medium lg:hidden"
-                    wire:navigate>
+                <a href="{{ route('home') }}" class="z-20 flex flex-col items-center gap-3 font-medium" wire:navigate>
+                    <img src="/apple-touch-icon.png" alt="Logo Wira Bahari" class="size-24 object-contain" />
+                    {{-- <span
+                        class="flex h-24 w-24 items-center justify-center rounded-xl bg-wira-100 dark:bg-wira-dark-700">
+                        <img src="/apple-touch-icon.png" alt="Logo Wira Bahari" class="size-20 object-contain" />
+                    </span> --}}
                     <span
-                        class="flex h-14 w-14 items-center justify-center rounded-xl bg-wira-100 dark:bg-wira-dark-700">
-                        <img src="/apple-touch-icon.png" alt="Logo Wira Bahari" class="size-10 object-contain" />
-                    </span>
-                    <span
-                        class="text-lg font-bold text-wira-900 dark:text-white">{{ config('app.name', 'Wira SPP') }}</span>
+                        class="text-lg font-bold text-wira-dark-900 dark:text-white">{{ config('app.name', 'Wira SPP') }}</span>
                 </a>
 
                 {{-- Form Content --}}

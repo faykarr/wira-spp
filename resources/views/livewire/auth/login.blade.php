@@ -1,4 +1,4 @@
-<x-layouts.auth title="Login">
+<x-layouts.auth title="Login | {{ env('APP_SHORT_NAME', 'Wira SPP') }}">
     <div class="flex flex-col gap-6">
         {{-- Header --}}
         <div class="text-center">

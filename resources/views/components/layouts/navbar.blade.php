@@ -17,7 +17,7 @@
                 <a href="{{ route('home') }}" class="flex items-center ms-2 md:me-24" wire:navigate>
                     <img src="/apple-touch-icon.png" class="h-8 me-3" alt="Logo" />
                     <span class="self-center text-xl font-semibold whitespace-nowrap text-gray-900 dark:text-white">
-                        {{ config('app.name', 'Wira SPP') }}
+                        {{ env('APP_SHORT_NAME', 'Wira SPP') }}
                     </span>
                 </a>
             </div>

@@ -1,5 +1,4 @@
 <div>
-    {{-- Welcome Banner with Illustration --}}
     <div
         class="mb-6 p-6 bg-white rounded-lg shadow-sm dark:bg-wira-dark-800 border border-gray-200 dark:border-wira-dark-700">
         <div class="flex flex-col md:flex-row items-center justify-between gap-6">
@@ -32,14 +31,12 @@
                     </span>
                 </div>
             </div>
-            {{-- Illustration --}}
             <div class="shrink-0 hidden lg:block">
                 <x-svgs.man-credit-card />
             </div>
         </div>
     </div>
 
-    {{-- Stats Cards --}}
     <div class="grid grid-cols-1 gap-4 mb-6 sm:grid-cols-2 lg:grid-cols-4">
         <x-dashboard.stats-card title="Total Siswa" value="0" subtitle="siswa terdaftar">
             <x-slot:icon>
@@ -153,7 +150,6 @@
         </div>
     </div>
 
-    {{-- Recent Activity Placeholder --}}
     <div
         class="p-6 bg-white rounded-lg shadow-sm dark:bg-wira-dark-800 border border-gray-200 dark:border-wira-dark-700">
         <h2 class="mb-4 text-lg font-semibold text-gray-900 dark:text-white flex items-center gap-2">
