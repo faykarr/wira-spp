@@ -12,4 +12,72 @@
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* ============================================
+       WIRA BAHARI CUSTOM THEME
+       Light Mode: Lavender/Purple palette
+       Dark Mode: Navy Blue palette
+       Source: colorhunt.co
+       ============================================ */
+
+    /* Light Mode Colors - Lavender/Purple */
+    --color-wira-50: #FAF8FF;
+    /* Lightest - almost white */
+    --color-wira-100: #F5EFFF;
+    /* From palette */
+    --color-wira-200: #EDE5FA;
+    /* Interpolated */
+    --color-wira-300: #E5D9F2;
+    /* From palette */
+    --color-wira-400: #D8CCF0;
+    /* Interpolated */
+    --color-wira-500: #CDC1FF;
+    /* From palette - Primary */
+    --color-wira-600: #B8A8F5;
+    /* Interpolated */
+    --color-wira-700: #A594F9;
+    /* From palette */
+    --color-wira-800: #8B7AD9;
+    /* Darker */
+    --color-wira-900: #7161B8;
+    /* Darkest */
+    --color-wira-950: #5A4A99;
+    /* Extra dark */
+
+    /* Dark Mode Colors - Navy Blue */
+    --color-wira-dark-50: #E8F4FC;
+    /* Lightest */
+    --color-wira-dark-100: #C5E0F5;
+    /* Light */
+    --color-wira-dark-200: #8FC5EB;
+    /* Interpolated */
+    --color-wira-dark-300: #5AAADE;
+    /* Interpolated */
+    --color-wira-dark-400: #2C74B3;
+    /* From palette */
+    --color-wira-dark-500: #205295;
+    /* From palette - Primary */
+    --color-wira-dark-600: #1A4780;
+    /* Interpolated */
+    --color-wira-dark-700: #144272;
+    /* From palette */
+    --color-wira-dark-800: #0F365C;
+    /* Interpolated */
+    --color-wira-dark-900: #0A2647;
+    /* From palette - Darkest */
+    --color-wira-dark-950: #071B33;
+    /* Extra dark */
+
+    /* Primary color alias (untuk kemudahan) */
+    --color-primary-50: var(--color-wira-50);
+    --color-primary-100: var(--color-wira-100);
+    --color-primary-200: var(--color-wira-200);
+    --color-primary-300: var(--color-wira-300);
+    --color-primary-400: var(--color-wira-400);
+    --color-primary-500: var(--color-wira-500);
+    --color-primary-600: var(--color-wira-600);
+    --color-primary-700: var(--color-wira-700);
+    --color-primary-800: var(--color-wira-800);
+    --color-primary-900: var(--color-wira-900);
+    --color-primary-950: var(--color-wira-950);
 }
